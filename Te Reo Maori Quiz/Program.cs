@@ -23,7 +23,6 @@ else
     Console.WriteLine("Wrong! Please try again");
 }
 
-
 Console.WriteLine("Question 2: What are the two ways you can say Black in Maori?");
 ans = Console.ReadLine();
 if (ans == "mangu pango")
@@ -62,6 +61,61 @@ ans = Console.ReadLine();
 if (ans == "mawhero") {
     Console.WriteLine("Correct!");
 }
+else
+{
+    Console.WriteLine("Wrong! Please try again");
+}
+
+Console.WriteLine("Question 6: How do you say light blue in Maori?");
+ans = Console.ReadLine();
+if (ans == "orangitea")
+{
+    Console.WriteLine("Correct!");
+} 
+else
+{
+    Console.WriteLine("Wrong! Please try again");
+}
+
+Console.WriteLine("Question 7: How do you say grey in Maori?");
+ans = Console.ReadLine();
+if (ans == "kiwikiwi")
+{
+    Console.WriteLine("Correct!");
+}
+else
+{
+    Console.WriteLine("Wrong! Please try again");
+}
+
+Console.WriteLine("Question 8: How do you say yellow in Maori?");
+ans = Console.ReadLine();
+if (ans == "kowhai")
+{
+    Console.WriteLine("Correct!");
+}
+else
+{
+    Console.WriteLine("Wrong! Please try again");
+}
+
+Console.WriteLine("Question 9: How do you say magenta in Maori?");
+ans = Console.ReadLine();
+if (ans == "makurakura")
+{
+    Console.WriteLine("Correct!");
+}
+else
+{
+    Console.WriteLine("Wrong! Please try again");
+}
+
+Console.WriteLine("Question 10: How do you say red in Maori?");
+ans = Console.ReadLine();
+if (ans == "whero")
+{
+    Console.WriteLine("Correct!");
+} 
 else
 {
     Console.WriteLine("Wrong! Please try again");
