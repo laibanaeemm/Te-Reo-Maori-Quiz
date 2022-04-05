@@ -8,6 +8,7 @@ Console.WriteLine("- This quiz will test you on how well you know Te Reo Maori."
 Console.WriteLine("- The quiz will be seperated in 3 levels, with each level quizing you on a different topic in Maori.");
 Console.WriteLine("- One more thing that you must remember is to have fun!");
 Console.WriteLine("- Let's get started!\n");
+Console.WriteLine("Press the enter key to start");
 Console.ReadLine();
 Console.Clear();
 
@@ -140,7 +141,6 @@ int score1 = 0;
         Console.WriteLine("Wrong!");
     }
 
-Console.WriteLine("\n\nCongratulations! You have finished the first level!\n");
 Console.WriteLine("Your score on Level 1 is: " + score1);
 Console.WriteLine("Press enter to go on to the next level");
 Console.ReadLine();
@@ -273,7 +273,6 @@ else
     Console.WriteLine("Wrong!");
 }
 
-Console.WriteLine("\n\nCongratulations! You have finished the second level!\n");
 Console.WriteLine("Your score on Level 2 is: " + score2);
 Console.WriteLine("Press enter to go on to the next level");
 Console.ReadLine();
@@ -406,3 +405,20 @@ else
 {
     Console.WriteLine("Wrong!");
 }
+
+Console.WriteLine("Your score on Level 3 is: " + score3); 
+Console.WriteLine("Press enter");
+Console.ReadLine();
+Console.Clear();
+
+int ovscore;
+Console.WriteLine("Congratulations! You have finshed all three levels successfully!);
+Console.WriteLine("Your overall score from all three levels are: ");
+ovscore = score1 + score2 + score3;
+Console.WriteLine(ovscore);
+                  
+Console.WriteLine("I hope you had learned something from this and feel free to do this quiz as many times as you like");
+Console.WriteLine("Goodbye");
+Console.WriteLine("Press enter to end the quiz");
+Console.ReadLine();
+Console.Clear();
