@@ -412,7 +412,7 @@ Console.ReadLine();
 Console.Clear();
 
 int ovscore;
-Console.WriteLine("Congratulations! You have finshed all three levels successfully!);
+Console.WriteLine("Congratulations! You have finshed all three levels successfully!");
 Console.WriteLine("Your overall score from all three levels are: ");
 ovscore = score1 + score2 + score3;
 Console.WriteLine(ovscore);
