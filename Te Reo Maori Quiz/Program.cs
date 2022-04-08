@@ -1,7 +1,3 @@
-/*
- * Display intro
- */
-
 Console.WriteLine("Te Reo Maori Quiz!\n");
 
 Console.WriteLine("- This quiz will test you on how well you know Te Reo Maori.");
