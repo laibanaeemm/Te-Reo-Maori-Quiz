@@ -1,3 +1,6 @@
+
+
+do {
 Console.WriteLine("Te Reo Maori Quiz!\n");
 
 Console.WriteLine("- This quiz will test you on how well you know Te Reo Maori.");
@@ -9,15 +12,17 @@ Console.ReadLine();
 Console.Clear();
 
 Console.WriteLine("Level 1: Colours");
+Console.WriteLine("Press enter to start the first level");
 Console.ReadLine();
 Console.Clear();
+//prompting the user to press enter;
 
 string ans;
 int score1 = 0;
 
 
     Console.WriteLine("Question 1: How do you say brown in Maori?");
-    ans = Console.ReadLine();
+    ans = Console.ReadLine(); //this tells the user to press enter to submit their answer to the computer;
     if (ans.ToLower() == "paraone")
     {
         Console.WriteLine("Correct!");
@@ -28,9 +33,9 @@ int score1 = 0;
         Console.WriteLine("Wrong!");
     }
 
-    Console.WriteLine("\nQuestion 2: What are the two ways you can say Black in Maori?");
+    Console.WriteLine("\nQuestion 2: How do you say black in Maori?");
     ans = Console.ReadLine();
-    if (ans.ToLower() == "mangu and pango")
+    if (ans.ToLower() == "mangu")
     {
         Console.WriteLine("Correct!");
         score1 = score1 + 1;
@@ -145,6 +150,7 @@ Console.Clear();
 int score2 = 0;
 
 Console.WriteLine("Level 2: Animals");
+Console.WriteLine("Press enter to get started");
 Console.ReadLine();
 Console.Clear();
 
@@ -270,13 +276,14 @@ else
 }
 
 Console.WriteLine("Your score on Level 2 is: " + score2);
-Console.WriteLine("Press enter to go on to the next level");
+Console.WriteLine("Press enter to get started");
 Console.ReadLine();
 Console.Clear();
 
 
 
 Console.WriteLine("Level 3: Fruit");
+Console.WriteLine("Press enter to get started");
 Console.ReadLine();
 Console.Clear();
 
@@ -407,7 +414,9 @@ Console.WriteLine("Press enter");
 Console.ReadLine();
 Console.Clear();
 
+char choice;
 int ovscore;
+//with this variable, it saves the users overall score by adding them all together;
 Console.WriteLine("Congratulations! You have finshed all three levels successfully!");
 Console.WriteLine("Your overall score from all three levels are: ");
 ovscore = score1 + score2 + score3;
@@ -418,3 +427,5 @@ Console.WriteLine("Goodbye");
 Console.WriteLine("Press enter to end the quiz");
 Console.ReadLine();
 Console.Clear();
+
+} while (choice == 'y');
