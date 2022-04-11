@@ -332,7 +332,7 @@ else
 
 Console.WriteLine("\nQuestion 5: How do you say peach in Maori");
 ans = Console.ReadLine();
-if (ans.ToLower() = "pithi")
+if (ans.ToLower() == "pithi")
 {
     Console.WriteLine("Correct!");
     score3 = score3 + 1;
