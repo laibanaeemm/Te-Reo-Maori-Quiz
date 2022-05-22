@@ -1,27 +1,29 @@
-
-
 /*
- */
+*/
 
-do {
-Console.WriteLine("Te Reo Maori Quiz!\n");
+char choice;
 
-Console.WriteLine("- This quiz will test you on how well you know Te Reo Maori.");
-Console.WriteLine("- The quiz will be seperated in 3 levels, with each level quizing you on a different topic in Maori.");
-Console.WriteLine("- One more thing that you must remember is to have fun!");
-Console.WriteLine("- Let's get started!\n");
-Console.WriteLine("Press the enter key to start");
-Console.ReadLine();
-Console.Clear();
+do
+{
+    Console.WriteLine("Te Reo Maori Quiz!\n");
 
-Console.WriteLine("Level 1: Colours");
-Console.WriteLine("Press enter to start the first level");
-Console.ReadLine();
-Console.Clear();
-//prompting the user to press enter;
+    Console.WriteLine("- This quiz will test you on how well you know Te Reo Maori.");
+    Console.WriteLine("- The quiz will be seperated in 3 levels, with each level quizing you on a different topic in Maori.");
+    Console.WriteLine("- One more thing that you must remember is to have fun!");
+    Console.WriteLine("- Let's get started!\n");
+    Console.WriteLine("Press the enter key to start this quiz");
+    Console.ReadLine();
+    Console.Clear();
 
-char ans;
-int score1 = 0;
+    Console.WriteLine("Level 1: Colours");
+    Console.WriteLine("Press enter to start the first level");
+    Console.ReadLine();
+    Console.Clear();
+    //prompting the user to press enter;
+
+    char ans;
+    int score1 = 0;
+
 
 
 
@@ -34,14 +36,14 @@ int score1 = 0;
 
     while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
     {
-        Console.WriteLine( "Please select only a, b, c or d");
+        Console.WriteLine("Please select only a, b, c or d");
         ans = Convert.ToChar(Console.ReadLine());
     }
     if (ans == 'D' || ans == 'd')
     {
         Console.WriteLine("Correct!");
         score1 = score1 + 1;
-      
+
     }
     else
     {
@@ -54,7 +56,7 @@ int score1 = 0;
     Console.WriteLine("B. Mangu");
     Console.WriteLine("C. Kakariki");
     Console.WriteLine("D. Karikiuri");
-    ans = Convert.ToChar(Console.ReadLine()); 
+    ans = Convert.ToChar(Console.ReadLine());
     while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
     {
         Console.WriteLine("Please select only a, b, c or d");
@@ -257,14 +259,14 @@ int score1 = 0;
     Console.ReadLine();
     Console.Clear();
 
-int score2 = 0;
+    int score2 = 0;
 
-Console.WriteLine("Level 2: Animals");
-Console.WriteLine("Press enter to get started");
-Console.ReadLine();
-Console.Clear();
+    Console.WriteLine("Level 2: Animals");
+    Console.WriteLine("Press enter to get started");
+    Console.ReadLine();
+    Console.Clear();
 
-Console.WriteLine("Question 1: How do you say horse in Maori?");
+    Console.WriteLine("Question 1: How do you say horse in Maori?");
     Console.WriteLine("A. Hoiho");
     Console.WriteLine("B. Kuri");
     Console.WriteLine("C. Ngeru");
@@ -320,7 +322,7 @@ Console.WriteLine("Question 1: How do you say horse in Maori?");
         Console.WriteLine("Please select only a, b, c or d");
         ans = Convert.ToChar(Console.ReadLine());
     }
-    if (ans == 'C'|| ans == 'c')
+    if (ans == 'C' || ans == 'c')
     {
         Console.WriteLine("Correct!");
         score2 = score2 + 1;
@@ -332,241 +334,414 @@ Console.WriteLine("Question 1: How do you say horse in Maori?");
     }
 
     Console.WriteLine("\nQuestion 4: How do you say cat in Maori? ");
-ans = Console.ReadLine();
-if (ans.ToLower() == "ngeru")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    Console.WriteLine("A. Heihei");
+    Console.WriteLine("B.Ngeru");
+    Console.WriteLine("C. Kuri");
+    Console.WriteLine("D. Tia");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'B' || ans == 'b')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-Console.WriteLine("\nQuestion 5: How do you say hen in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "heihei")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
-
-Console.WriteLine("\nQuestion 6: How do you say rabbit in Maori?");
-ans = Console.ReadLine();
-if (ans.ToLower() == "rapeti")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
-
-Console.WriteLine("\nQuestion 7: How do you say deer in Maori?");
-ans = Console.ReadLine();
-if (ans.ToLower() == "tia")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
-
-Console.WriteLine("\n Question 8: How do you say sheep in Maori?");
-ans = Console.ReadLine();
-if (ans.ToLower() == "hipi")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
-
-Console.WriteLine("\nQuestion 9: How do you say possum in Maori?");
-ans = Console.ReadLine();
-if(ans.ToLower() == "paihamu")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-} 
-else
-{
-    Console.WriteLine("Wrong!");
-}
-
-Console.WriteLine("\nQuestion 10: How do you say pig in Maori?");
-ans = Console.ReadLine();
-if(ans.ToLower() == "poaka")
-{
-    Console.WriteLine("Correct!");
-    score2 = score2 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
-
-Console.WriteLine("Your score on Level 2 is: " + score2);
-Console.WriteLine("Press enter to get started");
-Console.ReadLine();
-Console.Clear();
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
 
+    Console.WriteLine("\nQuestion 5: How do you say hen in Maori");
+    Console.WriteLine("A. Rapeti");
+    Console.WriteLine("B.Ngeru");
+    Console.WriteLine("C. Kuri");
+    Console.WriteLine("D. Heihei");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'D' || ans == 'd')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-Console.WriteLine("Level 3: Fruit");
-Console.WriteLine("Press enter to get started");
-Console.ReadLine();
-Console.Clear();
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
-int score3 = 0;
+    Console.WriteLine("\nQuestion 6: How do you say rabbit in Maori?");
+    Console.WriteLine("A. Rapeti");
+    Console.WriteLine("B.Ngeru");
+    Console.WriteLine("C. Kuri");
+    Console.WriteLine("D. Tia");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'A' || ans == 'a')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-Console.WriteLine("\nQuestion 1: How do you say apple in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "aporo")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
-Console.WriteLine("\nQuestion 2: How do you say orange in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "orani")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    Console.WriteLine("\nQuestion 7: How do you say deer in Maori?");
+    Console.WriteLine("A. Hoiho");
+    Console.WriteLine("B.Hipi");
+    Console.WriteLine("C. Kuri");
+    Console.WriteLine("D. Tia");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'D' || ans == 'd')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-Console.WriteLine("\nQuestion 3: How do you say banana in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "panana")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
-Console.WriteLine("\nQuestion 4: How do you say mandarin in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "manarini")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
 
-Console.WriteLine("\nQuestion 5: How do you say peach in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "pithi")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    Console.WriteLine("\n Question 8: How do you say sheep in Maori?");
+    Console.WriteLine("A. Hoiho");
+    Console.WriteLine("B. Hipi ");
+    Console.WriteLine("C. Kuri");
+    Console.WriteLine("D. Tia");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'B' || ans == 'b')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-Console.WriteLine("\nQuestion 6: How do you say avocado in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "rahopuru")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
-Console.WriteLine("\nQuestion 7: How do you say lemon in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "remana")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
 
-Console.WriteLine("\nQuestion 8: How do you say strawberry in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "ropere")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    Console.WriteLine("\nQuestion 9: How do you say possum in Maori?");
+    Console.WriteLine("A. Paihamu");
+    Console.WriteLine("B.Ngeru");
+    Console.WriteLine("C. Hipi");
+    Console.WriteLine("D. Tia");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'A' || ans == 'a')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-Console.WriteLine("\nQuestion 9: How do you say pear in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "pea")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
-Console.WriteLine("\nQuestion 10: How do you say grapes in Maori");
-ans = Console.ReadLine();
-if (ans.ToLower() == "karepe")
-{
-    Console.WriteLine("Correct!");
-    score3 = score3 + 1;
-}
-else
-{
-    Console.WriteLine("Wrong!");
-}
 
-Console.WriteLine("Your score on Level 3 is: " + score3); 
-Console.WriteLine("Press enter");
-Console.ReadLine();
-Console.Clear();
+    Console.WriteLine("\nQuestion 10: How do you say pig in Maori?");
+    Console.WriteLine("A. Paihamu");
+    Console.WriteLine("B.Poaka");
+    Console.WriteLine("C. Hipi");
+    Console.WriteLine("D. Tia");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'A' || ans == 'a')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
 
-char choice;
-int ovscore;
-//with this variable, it saves the users overall score by adding them all together;
-Console.WriteLine("Congratulations! You have finshed all three levels successfully!");
-Console.WriteLine("Your overall score from all three levels are: ");
-ovscore = score1 + score2 + score3;
-Console.WriteLine(ovscore);
-                  
-Console.WriteLine("I hope you had learned something from this and feel free to do this quiz as many times as you like");
-Console.WriteLine("Goodbye");
-Console.WriteLine("Press enter to end the quiz or if you want to do it again, please press 'y'");
-Console.ReadLine();
-Console.Clear();
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
 
-} while ()
+    Console.WriteLine("Your score on Level 2 is: " + score2);
+    Console.WriteLine("Press enter to get started");
+    Console.ReadLine();
+    Console.Clear();
 
+
+
+    Console.WriteLine("Level 3: Fruit");
+    Console.WriteLine("Press enter to get started");
+    Console.ReadLine();
+    Console.Clear();
+
+    int score3 = 0;
+
+    Console.WriteLine("\nQuestion 1: How do you say apple in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'B' || ans == 'b')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 2: How do you say orange in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Arani");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'B' || ans == 'b')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 3: How do you say banana in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'A' || ans == 'a')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 4: How do you say mandarin in Maori");
+    Console.WriteLine("A. Rahopuru");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'C' || ans == 'c')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 5: How do you say peach in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Pititi");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'D' || ans == 'd')
+    {
+        Console.WriteLine("Correct!");
+        score2 = score2 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 6: How do you say avocado in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Rahopuru");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'C' || ans == 'c')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 7: How do you say lemon in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'D' || ans == 'd')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 8: How do you say strawberry in Maori");
+    Console.WriteLine("A. Panana");
+    Console.WriteLine("B. Ropere");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'B' || ans == 'b')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 9: How do you say pear in Maori");
+    Console.WriteLine("A. Pea");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Manarini");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'A' || ans == 'a')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("\nQuestion 10: How do you say grapes in Maori");
+    Console.WriteLine("A. Pea");
+    Console.WriteLine("B. Aporo");
+    Console.WriteLine("C. Rapere");
+    Console.WriteLine("D. Remana");
+    ans = Convert.ToChar(Console.ReadLine());
+    while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
+    {
+        Console.WriteLine("Please select only a, b, c or d");
+        ans = Convert.ToChar(Console.ReadLine());
+    }
+    if (ans == 'C' || ans == 'c')
+    {
+        Console.WriteLine("Correct!");
+        score3 = score3 + 1;
+
+    }
+    else
+    {
+        Console.WriteLine("Wrong!");
+    }
+
+    Console.WriteLine("Your score on Level 3 is: " + score3);
+    Console.WriteLine("Press enter");
+    Console.ReadLine();
+    Console.Clear();
+
+    int ovscore;
+    //with this variable, it saves the users overall score by adding them all together;
+    Console.WriteLine("Congratulations! You have finshed all three levels successfully!");
+    Console.WriteLine("Your overall score from all three levels are: ");
+    ovscore = score1 + score2 + score3;
+    Console.WriteLine(ovscore);
+
+    Console.WriteLine("I hope you had learned something from this and feel free to do this quiz as many times as you like");
+    Console.WriteLine("Goodbye");
+    Console.WriteLine("Press enter to end the quiz or if you want to do it again, please press 'y'");
+    choice = Convert.ToChar(Console.ReadLine());
+    Console.Clear();
+    
+
+} while (choice == 'y' || choice == 'Y');
