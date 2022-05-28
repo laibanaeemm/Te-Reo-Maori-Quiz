@@ -28,14 +28,13 @@ namespace methods
                 Console.WriteLine("- One more thing that you must remember is to have fun!");
                 Console.WriteLine("- Let's get started!\n");
                 Console.WriteLine("Press the enter key to start this quiz");
-                Console.ReadLine();
-                Console.Clear();
+                Console.ReadLine(); //prompting the user to press enter
+                Console.Clear(); // clears the program to be able to make it look neater
 
                 Console.WriteLine("Level 1: Colours");
                 Console.WriteLine("Press enter to start the first level");
                 Console.ReadLine();
                 Console.Clear();
-                //prompting the user to press enter;
 
                 char ans;
                 int score1 = 0;
@@ -58,7 +57,7 @@ namespace methods
                 if (ans == 'D' || ans == 'd')
                 {
                     Console.WriteLine("Correct!");
-                    score1 = score1 + 1;
+                    score1 = score1 + 1; // stores 1 point in the variable 'score1'
 
                 }
                 else
