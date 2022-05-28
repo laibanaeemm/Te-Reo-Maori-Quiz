@@ -21,7 +21,7 @@ namespace methods
 
             do
             {
-                Console.WriteLine("Te Reo Maori Quiz!\n");
+                Console.WriteLine("Te Reo Maori Quiz!\n"); // display intro
 
                 Console.WriteLine("- This quiz will test you on how well you know Te Reo Maori.");
                 Console.WriteLine("- The quiz will be seperated in 3 levels, with each level quizing you on a different topic in Maori.");
