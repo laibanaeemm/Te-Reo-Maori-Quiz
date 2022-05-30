@@ -51,7 +51,7 @@ namespace methods
 
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'D' || ans == 'd')
@@ -74,7 +74,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -97,7 +97,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -119,7 +119,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
@@ -142,7 +142,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -166,7 +166,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
@@ -188,7 +188,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'D' || ans == 'd')
@@ -210,7 +210,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
@@ -232,7 +232,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -254,7 +254,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -289,7 +289,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -312,7 +312,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -334,7 +334,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
@@ -356,7 +356,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -379,7 +379,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'D' || ans == 'd')
@@ -401,7 +401,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -423,7 +423,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'D' || ans == 'd')
@@ -446,7 +446,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -469,7 +469,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -492,7 +492,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -528,7 +528,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -550,7 +550,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -572,7 +572,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -594,7 +594,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
@@ -616,7 +616,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'D' || ans == 'd')
@@ -638,7 +638,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
@@ -660,7 +660,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'D' || ans == 'd')
@@ -682,7 +682,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'B' || ans == 'b')
@@ -704,7 +704,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'A' || ans == 'a')
@@ -726,7 +726,7 @@ namespace methods
                 ans = Convert.ToChar(Console.ReadLine());
                 while (ans != 'a' && ans != 'b' && ans != 'c' && ans != 'd' && ans != 'A' && ans != 'B' && ans != 'C' && ans != 'D')
                 {
-                    Console.WriteLine("Please select only a, b, c or d");
+                    Console.WriteLine("Sorry but you can only write a, b, c, or d!");
                     ans = Convert.ToChar(Console.ReadLine());
                 }
                 if (ans == 'C' || ans == 'c')
